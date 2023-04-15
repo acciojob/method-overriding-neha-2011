@@ -5,6 +5,7 @@ public class Main {
 
 
         B objB = new B();
+        objB.meth();
         System.out.println(objB.meth()); // prints "Method is overridden in Extended class B"
     }
  public static class A{
